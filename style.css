@@ -1,7 +1,9 @@
 *{
-    background-color:white ;
     margin: 0em;
     padding: 0em;
+}
+body{
+  background-color: rgba(255, 255, 255, 0.937) !important;
 }
 .heading{
     display: flex;
@@ -13,6 +15,7 @@
     padding-top: 3%;
     padding-left: 5%;
     margin-bottom: 1.25rem;
+    font-family: 'Noto Sans', sans-serif;
 }
 .logo{
     height: 5rem;
@@ -31,9 +34,12 @@
 
 
 .navbar{
-    width: 95%;
+    width: 100%;
     background-color: white;
-    box-shadow: 7px 10px 40px -24px black
+    box-shadow: 5px 15px 20px -17px rgba(0, 0, 0, 0.43);
+}
+.navbar a{
+  font-family: 'Josefin Sans', sans-serif;
 }
   
   .nav-link {
@@ -72,5 +78,19 @@
   .nav-link-ltr:hover::before {
     width: 60%;
   }
+
+  .carousel-item{
+    height: 91vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+  }
   
- 
+  .carousel-item img{
+    width: 100%;
+    margin-top: 2rem;
+  }
+    
+   

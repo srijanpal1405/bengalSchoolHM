@@ -1,0 +1,170 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+body{
+  background-color: rgba(255, 255, 255, 0.937) !important;
+}
+.heading{
+    display: flex;
+    color: rgb(53, 51, 51);
+    
+  
+}
+/* .heading h1{
+  text-align: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    margin-bottom: 1.25rem;
+    font-family: 'Noto Sans', sans-serif;
+} */
+marquee{
+  background-color: rgb(60, 60, 135);
+  color: wheat;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.15rem;
+}
+.logo{
+    height: 6rem;
+    width: 6rem;
+}
+.logo img{
+    height: 6rem;
+    margin: 28% 0 0 30%;
+}
+.address{
+  margin: 1.5rem 0 1rem 0;
+  align-content: center;
+  width: 85%;
+  
+}
+.address h1{
+  font-family: 'Noto Sans', sans-serif;
+}
+.address h1,h5,h6{
+   
+  text-align: center;
+}
+.nav-item{
+    width:fit-content;
+    padding-right: 2.3rem;
+    font-size: 1.20rem;
+    font-weight: 500;
+}
+
+nav{
+  top: 0px;
+  z-index: 20;
+}
+
+.navbar{
+
+  margin-left: 0;
+    width: auto;
+    box-shadow: 5px 15px 20px -17px rgba(0, 0, 0, 0.43);
+}
+.navbar a{
+  font-family: 'Josefin Sans', sans-serif;
+}
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  .nav-link.active{
+    font-weight: 650;
+   
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 0.125rem;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 60%;
+  }
+
+  .carousel-item{
+    height: 91vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  .carousel-item img{
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .SAheading{
+    height: 5rem;
+    
+    margin-top: 2%;
+    background: rgb(119, 127, 93);
+    box-shadow: 5px 15px 20px -17px rgba(0, 0, 0, 0.43);
+
+  }
+
+  .SAheading h2{
+    color: rgb(255, 255, 255);
+    padding-top: 1.5%;
+    text-align: center;   
+  font-family: 'Noto Sans', sans-serif;
+  text-shadow: 1px 3px 25px #000000cc;
+  }
+.Stud_achieve{
+  width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.flex{
+ 
+  height: 20rem;
+  width: 33rem;
+  background-color: red;
+  border: 3px solid black;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+ footer{
+  margin-top: 2rem;
+  padding: 1rem 4.5rem 1rem 4.5rem;
+  width: auto;
+  
+  bottom: 0px;
+  margin: 10px auto;
+  background-color: #0c0c0cd4;
+  color: white;
+ } 
+   
+
+
+
+ /* complete student achievement
+    why bshm?
+    complete footer */

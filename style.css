@@ -29,13 +29,13 @@ marquee {
 }
 
 .logo {
-  height: 8rem;
-  width: 8rem;
+  height: 8vw;
+  width: 8vw;
 }
 
 .logo img {
-  height: 8rem;
-  margin: 5% 0 0 35%;
+  height: 8vw;
+  margin: 0.5rem 0 0 5vw;
 }
 
 .address {
@@ -170,7 +170,7 @@ width: 50vw;
 .flex {
   /* padding: 0.2%; */
   height: 25rem;
-  width: 40rem;
+  width: 41rem;
   background-color: rgba(190, 183, 157, 0.471);
 
   /* border-radius: 10%; */
@@ -217,12 +217,12 @@ width: 50vw;
 .footerC {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 footer {
   margin: 2rem 0 0 0;
-  /* padding: 1rem 12rem 1rem 9rem; */
+  padding: 0 0 1rem 0;
   width: auto;
 
   bottom: 0px;
@@ -235,7 +235,7 @@ footer .contact_foot{
 }
 footer .map{
   padding: 0 4% 0 0;
-  margin: 2rem 5rem 2rem 2rem;
+  margin: 2rem 3rem 2rem 2rem;
 }
 
 footer .icon a {
@@ -251,20 +251,65 @@ footer .icon a:hover {
   border-color: rgb(255, 255, 255);
   text-shadow: 5px 0px 8px rgb(14, 13, 13);
 }
-
-
+.footerC{
+  padding-bottom: 3px;
+}
 footer .credits p{
-  margin: 1% 0 0 0;
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .map iframe{
   
-  width:40vw;
+  width:50vw;
   height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .logo img {
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 2vw;
+  }
+}
+@media screen and (min-width: 707px) and (max-width: 767px){
+  .logo img {
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 5vw;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .logo img {
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 5vw;
+  }
+}
+
+@media screen and (min-width: 1224px){
+  .logo img {
+    height: 7vw;
+    margin-top: 2vw;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .logo img {
+    margin: 0.7vw 0 0 4vw;
+  }
+
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+  /* styles */
 }
 
 @media screen and (max-width:1200px) {
+ 
   .graphics{
     flex-wrap: wrap;
     /* width: 100%; */
@@ -272,7 +317,31 @@ footer .credits p{
   .graphics img{
     width: 100vw;
   }
+
   
+}
+
+  
+
+
+@media screen and (max-width:900px) {
+  
+
+  .footerC{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer .contact_foot{
+    margin: 2% 23% 1% 10%;
+  }
+  
+  
+  
+  .map iframe{
+    width:92vw;
+    height: 30vw;
+    /* margin: 2rem 4rem 2rem 4rem; */
+  }
 }
 
 

@@ -132,12 +132,13 @@ nav {
 }
 
 .graphics {
-  width: 100%;
+
+display: flex;
 
 }
 
 .graphics img {
-  width: 100%;
+width: 50vw;
 }
 
 .SAheading {
@@ -263,7 +264,16 @@ footer .credits p{
   height: 100%;
 }
 
-
+@media screen and (max-width:1200px) {
+  .graphics{
+    flex-wrap: wrap;
+    /* width: 100%; */
+  }
+  .graphics img{
+    width: 100vw;
+  }
+  
+}
 
 
 
@@ -305,6 +315,10 @@ footer .credits p{
   
 }
 
+
+.graphics_about img{
+  width: 100vw;
+}
 /* 
 .faculty {
   width: 100%;

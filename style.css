@@ -196,6 +196,7 @@ width: 50vw;
   padding: 3%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 540;
+  font-size: 1.7rem;
 }
 
 
@@ -308,7 +309,7 @@ footer .credits p{
   /* styles */
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1312px) {
  
   .graphics{
     flex-wrap: wrap;

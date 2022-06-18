@@ -118,7 +118,7 @@ nav {
 }
 
 .carousel-item {
-  height: 91vh;
+  /* height: 91vh; */
   width: 100%;
   position: absolute;
   left: 0;
@@ -181,7 +181,8 @@ nav {
 
 .flex img{
   transition: transform 0.2s ease-in-out;
-  
+  height: 100%;
+  width: 100%;
 }
 
 .flex img:hover{
@@ -196,11 +197,6 @@ nav {
   font-weight: 540;
 }
 
-.flex img {
-  height: 100%;
-  width: 100%;
-  /* border-radius: 8%; */
-}
 
 .owl-carousel{
   margin: 2% 0 1% 0;
@@ -220,6 +216,7 @@ nav {
 .footerC {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -237,7 +234,7 @@ footer .contact_foot{
 }
 footer .map{
   padding: 0 4% 0 0;
-  margin: 2% 24% 1% 2%;
+  margin: 2rem 5rem 2rem 2rem;
 }
 
 footer .icon a {
@@ -262,7 +259,106 @@ footer .credits p{
 
 .map iframe{
   
-  width:200% ;
+  width:40vw;
   height: 100%;
 }
+
+
+
+
+
+
+/* ---------------------------about us-----------------------------  */
+
+
+.background{
+    position: relative; 
+    /* height: 100vh; */
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.background::before {    
+  content: "";
+  background-image: url('/assets/images/3.jpeg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+  background-attachment: fixed;
+ filter: brightness(60%);
+}
+
+.about p{
+  text-align: center;
+  padding: 1.5% 1% 1% 1.5%;
+  position: relative;
+  color: #000000;  
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* 
+.faculty {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.fac_flexI {
+  
+  height: 20rem;
+  width: 20rem;
+  background-color: rgba(255, 255, 254, 0.471);
+
+  margin: 2rem 1rem 2rem 8rem;
+
+  
+  
+}
+.fac_flexP {
+  
+  height: 20rem;
+  width: 20rem;
+  background-color: rgba(255, 255, 254, 0.471);
+
+ 
+  margin: 2rem 10rem 2rem 7rem;
+
+  
+  
+}
+
+.fac_flexI img{
+  margin: 0 0 0 80px;
+  transition: transform 0.2s ease-in-out;
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.fac_flexI img:hover{
+  transform: scale(1.04);
+  box-shadow: 0px 2px 23px 0px;
+
+  
+}
+
+.fac_flexP p {
+  margin: 1vw 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+} */
+
 

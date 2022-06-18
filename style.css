@@ -29,13 +29,13 @@ marquee {
 }
 
 .logo {
-  height: 6rem;
-  width: 6rem;
+  height: 8rem;
+  width: 8rem;
 }
 
 .logo img {
-  height: 6rem;
-  margin: 28% 0 0 30%;
+  height: 8rem;
+  margin: 5% 0 0 35%;
 }
 
 .address {
@@ -143,15 +143,15 @@ nav {
 .SAheading {
   height: 5rem;
 
-  margin-top: 2%;
-  background: rgb(119, 127, 93);
+  margin: 2% 0 2% 0;
+  background-image: url("/assets/images/banner2.jpeg");
   box-shadow: 5px 15px 20px -17px rgba(0, 0, 0, 0.43);
 
 }
 
 .SAheading h2 {
   color: rgb(255, 255, 255);
-  padding-top: 1.5%;
+  padding-top: 1rem;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   text-shadow: 1px 3px 25px #000000cc;
@@ -167,22 +167,31 @@ nav {
 }
 
 .flex {
-  padding: 2%;
-  height: 20rem;
-  width: 30rem;
+  /* padding: 0.2%; */
+  height: 25rem;
+  width: 40rem;
   background-color: rgba(190, 183, 157, 0.471);
 
-  border-radius: 10%;
-  margin: 2rem 2rem 2rem 2rem;
+  /* border-radius: 10%; */
+  margin: 2rem 0rem 2rem 0rem;
   box-shadow: 0px 2px 19px -5px;
+  overflow: hidden;
+  
 }
 
-.flex:hover {
-  box-shadow: 0px 2px 23px 0px;
-  transition: 200ms ease-in-out;
+.flex img{
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+.flex img:hover{
+  transform: scale(1.1);
+  /* box-shadow: 0px 2px 23px 0px; */
+  
 }
 
 .flex p {
+  padding: 3%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 540;
 }
@@ -190,23 +199,45 @@ nav {
 .flex img {
   height: 100%;
   width: 100%;
-  border-radius: 8%;
+  /* border-radius: 8%; */
 }
 
-.footer {
+.owl-carousel{
+  margin: 2% 0 1% 0;
+}
+.owl-carousel .item{
+  margin: 1% 2% 1% 1%;
+  /* overflow: hidden; */
+}
+.owl-carousel .item img{
+  transition: transform 0.1s ease-in-out;
+}
+.owl-carousel .item img:hover{
+  transform: scale(1.1);
+  
+}
+
+.footerC {
   display: flex;
   justify-content: space-between;
 }
 
 footer {
-  margin-top: 2rem;
-  padding: 1rem 12rem 1rem 9rem;
+  margin: 2rem 0 0 0;
+  /* padding: 1rem 12rem 1rem 9rem; */
   width: auto;
 
   bottom: 0px;
   margin: 10px auto;
   background-color: #0c0c0cd4;
   color: white;
+}
+footer .contact_foot{
+  margin: 2% 1% 1% 8%;
+}
+footer .map{
+  padding: 0 4% 0 0;
+  margin: 2% 24% 1% 2%;
 }
 
 footer .icon a {
@@ -231,6 +262,7 @@ footer .credits p{
 
 .map iframe{
   
-  width:120% ;
+  width:200% ;
   height: 100%;
 }
+

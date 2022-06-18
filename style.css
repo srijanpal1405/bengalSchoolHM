@@ -29,8 +29,8 @@ marquee {
 }
 
 .logo {
-  height: 10vw;
-  width: 10vw;
+  height: 8vw;
+  width: 8vw;
 }
 
 .logo img {
@@ -263,24 +263,48 @@ footer .credits p{
   width:50vw;
   height: 100%;
 }
-@media (min-width:0px), (max-width:720px){
+@media screen and (min-width: 320px) and (max-width: 480px){
   .logo img {
-    
-    margin: 5vw 0 0 5vw;
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 2vw;
   }
 }
-@media (min-width:721px), (max-width:1080px){
+@media screen and (min-width: 707px) and (max-width: 767px){
   .logo img {
-    
-    margin: 3vw 0 0 4vw;
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 5vw;
   }
 }
-@media (min-width:1081px){
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
   .logo img {
-    
-    margin: 0.5vw 0 0 3vw;
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 5vw;
+  }
+}
+
+@media screen and (min-width: 1224px){
+  .logo img {
+    height: 7vw;
+    margin-top: 2vw;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .logo img {
+    margin: 0.7vw 0 0 4vw;
   }
 
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+  /* styles */
 }
 
 @media screen and (max-width:1200px) {

@@ -217,7 +217,7 @@ width: 50vw;
 .footerC {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 footer {
@@ -234,8 +234,8 @@ footer .contact_foot{
   margin: 2% 1% 1% 8%;
 }
 footer .map{
-  padding: 0 4% 0 0;
-  margin: 2rem 5rem 2rem 2rem;
+  /* padding: 0 4% 0 0; */
+  margin: 2rem 2rem 2rem 2rem;
 }
 
 footer .icon a {
@@ -260,7 +260,7 @@ footer .credits p{
 
 .map iframe{
   
-  width:40vw;
+  width:50vw;
   height: 100%;
 }
 
@@ -272,7 +272,23 @@ footer .credits p{
   .graphics img{
     width: 100vw;
   }
+
   
+}
+
+@media screen and (max-width:900px) {
+  .footerC{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer .contact_foot{
+    margin: 2% 23% 1% 30%;
+  }
+  
+  .map iframe{
+    width:90vw;
+    
+  }
 }
 
 

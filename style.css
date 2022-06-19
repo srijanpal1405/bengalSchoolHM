@@ -31,11 +31,10 @@ marquee {
 .logo {
   height: 8vw;
   width: 8vw;
-}
+ }
 
 .logo img {
   height: 8vw;
-  margin: 0.5rem 0 0 5vw;
 }
 
 .address {
@@ -188,7 +187,11 @@ font-family: 'poppins', sans-serif;
 }
 
 .graphics img {
+<<<<<<< HEAD
   width: 100%;
+=======
+width: 100%;
+>>>>>>> origin/master
 }
 
 .SAheading {
@@ -246,7 +249,7 @@ font-family: 'poppins', sans-serif;
   padding: 3%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 540;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
 
@@ -271,13 +274,14 @@ font-family: 'poppins', sans-serif;
 .footerC {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+  width: 98vw;
+  padding-bottom: 3px;
 }
 
 footer {
   margin: 2rem 0 0 0;
-  padding: 0 0 1rem 0;
-  width: auto;
+  padding: 1rem 0 1rem 0;
+  width: 100%;
 
   bottom: 0px;
   margin: 10px auto;
@@ -308,15 +312,20 @@ footer .icon a:hover {
   text-shadow: 5px 0px 8px rgb(14, 13, 13);
 }
 
+<<<<<<< HEAD
 .footerC {
   padding-bottom: 3px;
 }
 
 footer .credits p {
+=======
+footer .credits p{
+>>>>>>> origin/master
   margin-bottom: 5px;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .map iframe {
 
   width: 50vw;
@@ -324,6 +333,17 @@ footer .credits p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+=======
+.map iframe{
+  
+  width:50vw;
+  /* height: 100%; */
+}
+
+
+/* 
+@media screen and (min-width: 320px) and (max-width: 480px){
+>>>>>>> origin/master
   .logo img {
     margin: auto 43vw;
   }
@@ -341,10 +361,14 @@ footer .credits p {
   .address h1 {
     margin-top: 5vw;
   }
-}
+} */
 
 /* Tablets, iPads (portrait and landscape) ---------- */
+<<<<<<< HEAD
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+=======
+/* @media screen and (min-width: 768px) and (max-width: 1024px){
+>>>>>>> origin/master
   .logo img {
     margin: auto 43vw;
   }
@@ -366,6 +390,7 @@ footer .credits p {
     margin: 0.7vw 0 0 4vw;
   }
 
+<<<<<<< HEAD
 }
 
 /* Large screens ---------- */
@@ -373,9 +398,15 @@ footer .credits p {
   .graphics img {
     width: 50vw;
   }
+=======
+} */
+/* Large screens ---------- */
+/* @media screen and (min-width: 1824px){ */
+>>>>>>> origin/master
   /* styles */
-}
+/* } */
 
+<<<<<<< HEAD
 @media screen and (max-width:1312px) {
 
   .graphics {
@@ -384,6 +415,15 @@ footer .credits p {
   }
 
   .graphics img {
+=======
+/* @media screen and (max-width:1312px) {
+ 
+  .graphics{
+    flex-wrap: wrap; */
+    /* width: 100%; */
+  /* }
+  .graphics img{
+>>>>>>> origin/master
     width: 100vw;
   }
 
@@ -400,6 +440,7 @@ footer .credits p {
     width: 100%;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
 
   footer .contact_foot {
     margin: 2% 23% 1% 10%;
@@ -410,9 +451,22 @@ footer .credits p {
   .map iframe {
     width: 92vw;
     height: 30vw;
-    /* margin: 2rem 4rem 2rem 4rem; */
+=======
+  footer .contact_foot{
+    margin: 2% 10% 2% 10%;
   }
-}
+  
+  
+  
+  .map iframe{
+    width:85vw;
+    height: 30vw; */
+>>>>>>> origin/master
+    /* margin: 2rem 4rem 2rem 4rem; */
+  /* }
+} */
+
+
 
 
 
@@ -458,59 +512,310 @@ footer .credits p {
 .graphics_about img {
   width: 100%;
 }
+<<<<<<< HEAD
 
 /* 
 .faculty {
   width: 100%;
+=======
+>>>>>>> origin/master
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------media Query--------------------------------- */
+@media screen and (max-width: 320px){
+
+  marquee{
+    font-size: 12px;
+  }
+
+  .logo img {
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 2vw;
+    font-size: 20px;
+  }
+  .address h5,.address h6{
+    font-size: 12px;
+  }
+
+  .carousel-caption1{
+    display: none;
+  }
+  .SAheading{
+    height: 53px;
+  }
+.SAheading h2{
+  font-size: 18px;
 }
 
-.fac_flexI {
+  .graphics{
+    flex-wrap: wrap; 
+    
+   }
+  .graphics img{
+    width: 100vw;
+  }
   
-  height: 20rem;
-  width: 20rem;
-  background-color: rgba(255, 255, 254, 0.471);
-
-  margin: 2rem 1rem 2rem 8rem;
-
-  
-  
+.Stud_achieve .flex{
+  height: 18rem;
 }
-.fac_flexP {
-  
-  height: 20rem;
-  width: 20rem;
-  background-color: rgba(255, 255, 254, 0.471);
+  .Stud_achieve .flex p{
+    font-size: 15px;
+  }
 
- 
-  margin: 2rem 10rem 2rem 7rem;
-
-  
-  
-}
-
-.fac_flexI img{
-  margin: 0 0 0 80px;
-  transition: transform 0.2s ease-in-out;
-  
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
+  .footerC{
+    /* width: 100%; */
+    flex-wrap: wrap;
+  }
+  footer .map iframe{
+   width: 79vw;
+  }
 }
 
-.fac_flexI img:hover{
-  transform: scale(1.04);
-  box-shadow: 0px 2px 23px 0px;
 
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .logo img {
+    margin: auto 43vw;
+  }
+  .address h1{
+    margin-top: 2vw;
+  }
+
+  .carousel-caption1{
+    display: none;
+  }
+  .graphics{
+    flex-wrap: wrap; 
+    
+   }
+  .graphics img{
+    width: 99vw;
+  }
   
+
+  .Stud_achieve .flex p{
+    font-size: 21px;
+  }
+
+  .footerC{
+    /* width: 100%; */
+    flex-wrap: wrap;
+  }
+  footer .map iframe{
+   width: 82vw;
+  }
+}
+/* Smartphones (portrait) ---------- */
+
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 480px) and (max-width: 768px){
+  .logo img {
+    margin: auto 44vw;
+  }
+  .address h1{
+    margin-top: 5vw;
+    font-size: 23px;
+  }
+  .address h5,.address h6{
+    font-size: 14px;
+  }
+
+  .carousel-caption1{
+    display: none;
+  }
+  .graphics{
+    flex-wrap: wrap; 
+    
+   }
+  .graphics img{
+    width: 100vw;
+  }
+  .SAheading{
+    height: 53px;
+  }
+.SAheading h2{
+  font-size: 18px;
 }
 
+  .Stud_achieve .flex{
+    height: 18rem;
+  }
+    .Stud_achieve .flex p{
+      font-size: 15px;
+    }
+
+  .footerC{
+    /* width: 100%; */
+    flex-wrap: wrap;
+  }
+  footer .map iframe{
+   width: 83vw;
+  }
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .logo img {
+    margin: 10px 43vw;
+  }
+
+  .address h1{
+    margin-top: 6vw;
+  }
+      
+  
+  .carousel-caption1{
+    display: none;
+  }
+  
+  .graphics{
+    flex-wrap: wrap; 
+    
+   }
+   .graphics img{
+    width: 99vw;
+  }
+
+  footer .map iframe{
+    height: 45vw;
+  }
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+  
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) and (max-width: 1224px){
+  
+  .logo{
+    margin: 1.5vw 0 0 2vw;
+  }
+
+<<<<<<< HEAD
 .fac_flexP p {
   margin: 1vw 0 0 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 } */
+=======
+  .logo img{
+    margin: 0 0 0 0;
+  }
+  .carousel-caption1 h5{
+    font-size:7vw;
+  text-align: start;
+  }
+  .carousel-caption1 p{
+    margin: 0 0 0 8vw;
+  }
+  .Stud_achieve .flex{
+    height: 20rem;
+  }
+    .Stud_achieve .flex p{
+      font-size: 18px;
+    }
+  
+  .graphics{
+    flex-wrap: nowrap;
+    /* width: 50vw; */
+  }
+  .graphics img{
+    width: 50vw;
+  }
+  footer .map iframe{
+    height: 31vw;
+  }
+
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) and (max-width: 1824px){
+  .logo{
+    margin: 1.3vw 0 0 3vw;
+  }
+  .address {
+    margin: 1.5rem 0 1rem -26px;
+    align-content: center;
+    width: 85%;
+}
+  .logo img{
+    height: 7vw;
+  }
+  .carousel-caption1 h5{
+    font-size:7vw;
+  text-align: start;
+  }
+  .carousel-caption1 p{
+    margin: 0 0 0 8vw;
+  }
+  .Stud_achieve .flex{
+    width: 40vw;
+  } 
+     .Stud_achieve .flex p{
+      font-size: 18px;
+    }
+  
+  .graphics{
+    flex-wrap: nowrap;
+    /* width: 50vw; */
+  }
+  .graphics img{
+    width: 49vw;
+  }
+  footer .map iframe{
+    height: 22vw;
+  } 
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+  .logo{
+    margin: 1.2vw 0 0 3vw;
+  }
+  .address {
+    margin: 1.5rem 0 1rem -26px;
+    align-content: center;
+    width: 85%;
+}
+
+.address h1{
+  font-size: 50px;
+}
+  .logo img{
+    height: 6vw;
+  }
+  .carousel-caption1 h5{
+    font-size:7vw;
+  text-align: start;
+  }
+  .carousel-caption1 p {
+    margin: 0 0 0 5vw;
+}
+  .Stud_achieve .flex{
+    width: 40vw;
+  } 
+     .Stud_achieve .flex p{
+      font-size: 25px;
+    }
+  
+  .graphics{
+    flex-wrap: nowrap;
+  }
+  .graphics img{
+    width: 49.8vw;
+  }
+  footer .map iframe{
+    height: 19vw;
+  } 
+}
+>>>>>>> origin/master

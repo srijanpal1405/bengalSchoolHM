@@ -129,6 +129,29 @@ nav {
 .carousel-item img {
   width: 100%;
   margin-top: 2rem;
+  opacity: .8;
+}
+
+.carousel-caption1 {
+    position: absolute;
+    /* right: 15%; */
+    bottom: 4rem;
+    /* left: 15%; */
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    /* text-align: center; */
+}
+.carousel-caption1 h5{
+  font-size: 90px;
+  /* padding-left: 2%; */
+  color: #000000;
+}
+.carousel-caption1 p{
+  font-size: 25px;
+  /* padding-left: 2%; */
+  margin-left: 2rem;
+  color: #000000;
 }
 
 .graphics {
@@ -319,7 +342,10 @@ footer .credits p {
 }
 
 /* Large screens ---------- */
-@media screen and (min-width: 1824px) {
+@media screen and (max-width: 2040px) {
+  .graphics img {
+    width: 50vw;
+  }
   /* styles */
 }
 

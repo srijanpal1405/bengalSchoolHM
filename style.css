@@ -131,6 +131,33 @@ nav {
   margin-top: 2rem;
 }
 
+.carousel-caption1 {
+  position: absolute;
+  /* right: 15%; */
+  bottom: 4rem;
+  /* left: 15%; */
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  /* text-align: center; */
+}
+.carousel-caption1 h5{
+font-size: 90px;
+/* padding-left: 2%; */
+margin-left: 5rem;
+color: #ffffff;
+text-shadow: 1px 3px 25px #000000cc;
+font-family: 'poppins', sans-serif;
+}
+.carousel-caption1 p{
+font-size: 25px;
+/* padding-left: 2%; */
+margin-left: 7rem;
+color: #ffffff;
+text-shadow: 1px 3px 25px #000000cc;
+font-family: 'poppins', sans-serif;
+}
+
 .graphics {
 
 display: flex;

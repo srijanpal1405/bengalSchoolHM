@@ -644,8 +644,6 @@ body.lb-disable-scrolling {
 
 
 
-
-
 /* ----------------------------media Query--------------------------------- */
 @media screen and (max-width: 320px) {
 
@@ -696,6 +694,10 @@ body.lb-disable-scrolling {
     font-size: 15px;
   }
 
+.about p{
+  font-size: 15px;
+}
+
   .footerC {
     /* width: 100%; */
     flex-wrap: wrap;
@@ -729,12 +731,20 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 99vw;
   }
+  .SAheading {
+    height: 53px;
+  }
 
+  .SAheading h2 {
+    font-size: 18px;
+  }
 
   .Stud_achieve .flex p {
     font-size: 21px;
   }
-
+  .about p{
+    font-size: 18px;
+  }
   .footerC {
     /* width: 100%; */
     flex-wrap: wrap;
@@ -792,11 +802,17 @@ body.lb-disable-scrolling {
     font-size: 15px;
   }
 
+.about p{
+  font-size: 18px;
+}
+
   .footerC {
     /* width: 100%; */
     flex-wrap: wrap;
   }
-
+  footer .map{
+    margin: 2% 0 2% 8% ;
+  }
   footer .map iframe {
     width: 83vw;
   }
@@ -809,6 +825,7 @@ body.lb-disable-scrolling {
   }
 
   .address h1 {
+    font-size: 35px;
     margin-top: 6vw;
   }
 
@@ -816,7 +833,13 @@ body.lb-disable-scrolling {
   .carousel-caption1 {
     display: none;
   }
+  .SAheading {
+    height: 62px;
+  }
 
+  .SAheading h2 {
+    font-size: 25px;
+  }
   .graphics {
     flex-wrap: wrap;
 
@@ -825,7 +848,9 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 99vw;
   }
-
+  footer .map{
+    margin: 2% 0 2% 8% ;
+  }
   footer .map iframe {
     height: 45vw;
   }
@@ -968,7 +993,12 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 49.8vw;
   }
-
+ footer .contact_foot h4{
+  font-size: 35px;
+ }
+ footer .contact_foot p{
+  font-size: 25px;
+ }
   footer .map iframe {
     height: 19vw;
   }

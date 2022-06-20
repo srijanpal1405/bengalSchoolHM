@@ -433,7 +433,19 @@ footer .credits p {
 
 .container {
   margin-top: 2rem;
+  overflow: hidden;
 }
+.container img{
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+
+}
+.container img:hover{
+ transform: scale(1.03);
+ 
+}
+
+
 
 .lb-loader,
 .lightbox {

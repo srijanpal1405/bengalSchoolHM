@@ -301,87 +301,6 @@ footer .credits p {
 }
 
 
-/* 
-@media screen and (min-width: 320px) and (max-width: 480px){
-  .logo img {
-    margin: auto 43vw;
-  }
-  .address h1{
-    margin-top: 2vw;
-  }
-}
-@media screen and (min-width: 707px) and (max-width: 767px){
-  .logo img {
-    margin: auto 43vw;
-  }
-  .address h1{
-    margin-top: 5vw;
-  }
-} */
-
-/* Tablets, iPads (portrait and landscape) ---------- */
-/* @media screen and (min-width: 768px) and (max-width: 1024px){
-  .logo img {
-    margin: auto 43vw;
-  }
-  .address h1{
-    margin-top: 5vw;
-  }
-}
-
-@media screen and (min-width: 1224px){
-  .logo img {
-    height: 7vw;
-    margin-top: 2vw;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .logo img {
-    margin: 0.7vw 0 0 4vw;
-  }
-
-} */
-/* Large screens ---------- */
-/* @media screen and (min-width: 1824px){ */
-/* styles */
-/* } */
-
-/* @media screen and (max-width:1312px) {
- 
-  .graphics{
-    flex-wrap: wrap; */
-/* width: 100%; */
-/* }
-  .graphics img{
-    width: 100vw;
-  }
-
-  
-}
-
-  
-
-
-@media screen and (max-width:900px) {
-  
-
-  .footerC{
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  footer .contact_foot{
-    margin: 2% 10% 2% 10%;
-  }
-  
-  
-  
-  .map iframe{
-    width:85vw;
-    height: 30vw; */
-/* margin: 2rem 4rem 2rem 4rem; */
-/* }
-} */
-
 
 
 
@@ -433,7 +352,19 @@ footer .credits p {
 
 .container {
   margin-top: 2rem;
+  overflow: hidden;
 }
+.container img{
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+
+}
+.container img:hover{
+ transform: scale(1.03);
+ 
+}
+
+
 
 .lb-loader,
 .lightbox {

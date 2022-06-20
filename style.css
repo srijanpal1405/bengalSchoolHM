@@ -208,7 +208,6 @@ width: 100%;
 
 .flex img{
   transition: transform 0.2s ease-in-out;
-  height: 100%;
   width: 100%;
 }
 
@@ -625,7 +624,7 @@ footer .credits p{
     /* width: 50vw; */
   }
   .graphics img{
-    width: 50vw;
+    width: 49vw;
   }
   footer .map iframe{
     height: 31vw;
@@ -661,7 +660,6 @@ footer .credits p{
   
   .graphics{
     flex-wrap: nowrap;
-    /* width: 50vw; */
   }
   .graphics img{
     width: 49vw;

@@ -208,7 +208,10 @@ width: 100%;
 
 .flex img{
   transition: transform 0.2s ease-in-out;
-  width: 100%;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .flex img:hover{
@@ -470,6 +473,9 @@ footer .credits p{
 .Stud_achieve .flex{
   height: 18rem;
 }
+.Stud_achieve .flex img{
+  height: 100%;
+}
   .Stud_achieve .flex p{
     font-size: 15px;
   }
@@ -503,7 +509,7 @@ footer .credits p{
   .graphics img{
     width: 99vw;
   }
-  
+ 
 
   .Stud_achieve .flex p{
     font-size: 21px;

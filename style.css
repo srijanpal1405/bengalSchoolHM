@@ -644,8 +644,6 @@ body.lb-disable-scrolling {
 
 
 
-
-
 /* ----------------------------media Query--------------------------------- */
 @media screen and (max-width: 320px) {
 
@@ -796,7 +794,6 @@ body.lb-disable-scrolling {
     /* width: 100%; */
     flex-wrap: wrap;
   }
-
   footer .map iframe {
     width: 83vw;
   }
@@ -968,7 +965,6 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 49.8vw;
   }
-
   footer .map iframe {
     height: 19vw;
   }

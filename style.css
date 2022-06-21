@@ -565,6 +565,35 @@ body.lb-disable-scrolling {
   opacity: 1
 }
 
+/* -------------------------------------------------Academics------------------------------------------------- */
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.card{
+
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 5px;
+}
+.card-title{
+  font-family: 'Cabin', sans-serif;
+}
+
+
+.card-text{
+  margin-top: 8%;
+  font-family: 'Josefin', sans-serif;
+}
+
+.card:hover{
+  transform: scale(1.07);
+  box-shadow:  0px 0px 20px -3px;
+}
+
 
 
 
@@ -625,10 +654,6 @@ body.lb-disable-scrolling {
     font-size: 15px;
   }
 
-.about p{
-  font-size: 15px;
-}
-
   .footerC {
     /* width: 100%; */
     flex-wrap: wrap;
@@ -662,20 +687,12 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 99vw;
   }
-  .SAheading {
-    height: 53px;
-  }
 
-  .SAheading h2 {
-    font-size: 18px;
-  }
 
   .Stud_achieve .flex p {
     font-size: 18px;
   }
-  .about p{
-    font-size: 18px;
-  }
+
   .footerC {
     /* width: 100%; */
     flex-wrap: wrap;
@@ -733,16 +750,9 @@ body.lb-disable-scrolling {
     font-size: 15px;
   }
 
-.about p{
-  font-size: 18px;
-}
-
   .footerC {
     /* width: 100%; */
     flex-wrap: wrap;
-  }
-  footer .map{
-    margin: 2% 0 2% 8% ;
   }
   footer .map iframe {
     width: 83vw;
@@ -756,7 +766,6 @@ body.lb-disable-scrolling {
   }
 
   .address h1 {
-    font-size: 35px;
     margin-top: 6vw;
   }
 
@@ -764,13 +773,7 @@ body.lb-disable-scrolling {
   .carousel-caption1 {
     display: none;
   }
-  .SAheading {
-    height: 62px;
-  }
 
-  .SAheading h2 {
-    font-size: 25px;
-  }
   .graphics {
     flex-wrap: wrap;
 
@@ -779,9 +782,7 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 99vw;
   }
-  footer .map{
-    margin: 2% 0 2% 8% ;
-  }
+
   footer .map iframe {
     height: 45vw;
   }
@@ -924,12 +925,6 @@ body.lb-disable-scrolling {
   .graphics img {
     width: 49.8vw;
   }
- footer .contact_foot h4{
-  font-size: 35px;
- }
- footer .contact_foot p{
-  font-size: 25px;
- }
   footer .map iframe {
     height: 19vw;
   }

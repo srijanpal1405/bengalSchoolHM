@@ -982,7 +982,7 @@ body.lb-disable-scrolling {
   }
 }
 
-@media screen and (min-width: 1455px) {
+@media screen and (min-width: 1800px) {
   .course-img{
     display: none;
   }

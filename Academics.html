@@ -22,12 +22,16 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Poppins:wght@300;400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Poppins:wght@300;400;500;600&display=swap"
         rel="stylesheet">
 
 </head>
 
 <body>
+    <marquee loop="-1" scrollamount="5" width="100%">Admission process has been started for academic year 2022
+        .&nbsp;&nbsp;&nbsp; Confirm
+        your admission before its too late. &nbsp;&nbsp;&nbsp; <i class="uil uil-phone"></i> 1234567890
+    </marquee>
     <div class="heading">
         <div class="logo">
             <img src="/assets/images/logo.jpeg" alt="logo">
@@ -85,8 +89,8 @@
         <h2>Courses</h2>
     </div>
     <div class="card-container">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/assets/images/special/1.jpg" alt="Card image cap">
+        <div class="card" style="width: 18rem;" id="card-1">
+            <img class="card-img-top" src="/assets/images/card/1.png" alt="Card image cap">
             <div class="card-body">
                 <div class="card-title">
                     <h5>Diploma in Food Production and F & B Service</h5>
@@ -94,47 +98,144 @@
 
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#course_over" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/assets/images/special/1.jpg" alt="Card image cap">
+        <div class="card" style="width: 18rem;" id="card-2">
+            <img class="card-img-top" src="/assets/images/card/2.png" alt="Card image cap">
             <div class="card-body">
                 <div class="card-title">
-                    <h5>Certificate Course Bar Tending</h5>
+                    <h5>Certificate Course in <br> Bar Tending</h5>
                 </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#list-item-1" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/assets/images/special/1.jpg" alt="Card image cap">
+        <div class="card" style="width: 18rem;" id="card-3">
+            <img class="card-img-top" src="/assets/images/card/3.png" alt="Card image cap">
 
             <div class="card-body">
                 <div class="card-title">
-                    <h5>Certificate Course House Keeping/Receptionist </h5>
+                    <h5>Certificate Course in <br> House Keeping/Receptionist </h5>
                 </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#list-item-2" class="btn btn-primary">Go somewhere</a>
             </div>
 
 
         </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/assets/images/special/1.jpg" alt="Card image cap">
+        <div class="card" style="width: 18rem;" id="card-4">
+            <img class="card-img-top" src="/assets/images/card/4.png" alt="Card image cap">
             <div class="card-body">
                 <div class="card-title">
                     <h5 style="margin-top: 3%">Spoken English</h5>
                 </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#list-item-3" class="btn btn-primary" style="margin-top: 6.5%;">Go somewhere</a>
             </div>
         </div>
+
+    </div>
+    <div class="SAheading" id="course_over">
+        <h2>Course Overview</h2>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div class="course_details" id="d1">
+            <h4 id="list-item-1">Diploma in Food Production and F & B Service</h4>
+            <div class="course-txt-img">
+                <div class="course-txt">
+                    <p>Duration -  &nbsp;&nbsp;<strong>1.5 Years</strong>  <br>
+                        Course Fee: &nbsp;&nbsp; Rs. 1,20,000 / Rs.1,30,000 (with Installment) <br>
+                        Payment Terms: <br>
+                        a) General: <br> At the time of Admission: Rs.50,000 and Rest 70,000 within 02 Months <br>
+                        b) Installment: <br> At the time of Admission: Rs. 50,000.00 (July),
+                        Rest: Rs. 30,000 (Dec - 1st Installment); Rs. 25,000 (March - 2nd Installment) and Rs. 25,000
+                        (June - 3rd Installment)
+                    </p>
+                    <a href="#list-item-2" class="btn btn-primary">Admission</a>
+                </div>
+                <div class="course-img">
+                    <img src="/assets/images/pizza.png" alt="">
+                </div>
+
+                
+            </div>
+            
+            
+        </div>
+        <div class="course_details" id="d2">
+            <h4 id="list-item-2">Certificate Course in
+                Bar Tending</h4>
+                <div class="course-txt-img">
+                    <div class="course-txt">
+                        <p>Duration - &nbsp;&nbsp; <strong> 6 Months</strong> <br>
+                            Course Fee: Rs. 50,000 <br>
+                            Payment Terms: <br>
+                            At the time of Admission: Rs.25,000 and Rest 25,000 within 02 Months <br>
+            
+                        </p>
+                        <a href="#list-item-2" class="btn btn-primary">Admission</a>
+                    </div>
+                    <div class="course-img">
+                        <img src="/assets/images/martini-doodle.jpg" alt="">
+                    </div>
+    
+                    
+                </div>
+            
+            
+        </div>
+        <div class="course_details" id="d3">
+            <h4 id="list-item-3">Certificate Course in House Keeping/Receptionist</h4>
+            <div class="course-txt-img">
+                <div class="course-txt">
+                    <p>Duration - &nbsp;&nbsp;<strong> 6 Months</strong> <br>
+                        Course Fee: Rs. 60,000 <br>
+                        Payment Terms: <br>
+                        At the time of Admission: Rs.30,000 and Rest 30,000 within 02 Months <br>
+        
+                    </p>
+                    <a href="#list-item-2" class="btn btn-primary">Admission</a>
+                </div>
+                <div class="course-img">
+                    <img src="/assets/images/hotel-receptionist-doodle.jpg" alt="">
+                </div>
+
+                
+            </div>
+            
+            
+        </div>
+        <div class="course_details" id="d4">
+            <h4 id="list-item-4">Spoken English</h4>
+            <div class="course-txt-img">
+                <div class="course-txt">
+                    <p>Duration - &nbsp;&nbsp;<strong> 6 Months</strong> <br>
+                        Course Fee: Rs. 4,000 <br>
+                        Payment Terms: <br>
+                        At the time of Admission: Rs.2,000 and Rest 2,000 within 02 Months <br>
+        
+                    </p>
+                    <a href="#list-item-2" class="btn btn-primary">Admission</a>
+                </div>
+                <div class="course-img">
+                    <img src="/assets/images/hello-bonjour.jpg" alt="">
+                </div>
+
+                
+            </div>
+            
+            
+        </div>
+
+
+
 
     </div>
 

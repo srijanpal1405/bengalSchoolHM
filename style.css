@@ -57,7 +57,7 @@ h6 {
 
 .nav-item {
   width: fit-content;
-  padding-right: 2.3rem;
+  padding-right: 2rem;
   font-size: 1.20rem;
   font-weight: 500;
 }
@@ -569,18 +569,30 @@ body.lb-disable-scrolling {
 .card-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 2rem;
 }
-
+ #card-1 .card-body{
+  background-color: rgba(134, 204, 251, 0.714);
+}
+ #card-2 .card-body{
+  background-color: rgba(153, 197, 76, 0.596);
+}
+ #card-3 .card-body{
+  background-color: rgba(249, 186, 91, 0.86);
+}
+ #card-4 .card-body{
+  background-color: rgba(255, 0, 55, 0.319);
+}
 .card{
-
+  margin: 0.7%;
   text-align: center;
   transition: transform 0.2s ease-in-out;
   border-radius: 5px;
 }
 .card-title{
   font-family: 'Cabin', sans-serif;
+  
 }
 
 
@@ -590,9 +602,32 @@ body.lb-disable-scrolling {
 }
 
 .card:hover{
-  transform: scale(1.07);
+  transform: scale(1.05);
   box-shadow:  0px 0px 20px -3px;
 }
+
+.course_details{
+  margin: 0 0 5% 0;
+  padding: 2% 1.5% 2% 3%;
+}
+
+.course_details h4{
+  font-size: 35px;
+}
+.course_details p{
+  font-size: 20px;
+}
+
+.course-txt-img{
+  display: flex;
+  justify-content: space-between;
+}
+.course-txt-img img{
+  width: 20vw;
+  height: 15vw;
+}
+
+
 
 
 
@@ -654,8 +689,14 @@ body.lb-disable-scrolling {
     font-size: 15px;
   }
 
+  .course-img{
+    display: none;
+  }
+.course_details h4{
+  font-size: 25px;
+}
   .footerC {
-    /* width: 100%; */
+    
     flex-wrap: wrap;
   }
 
@@ -693,8 +734,16 @@ body.lb-disable-scrolling {
     font-size: 18px;
   }
 
+
+  .course-img{
+    display: none;
+  }
+  .course_details h4{
+    font-size: 30px;
+  }
+  
   .footerC {
-    /* width: 100%; */
+   
     flex-wrap: wrap;
   }
 
@@ -748,6 +797,9 @@ body.lb-disable-scrolling {
 
   .Stud_achieve .flex p {
     font-size: 15px;
+  }
+  .course-img{
+    display: none;
   }
 
   .footerC {
@@ -928,4 +980,11 @@ body.lb-disable-scrolling {
   footer .map iframe {
     height: 19vw;
   }
+}
+
+@media screen and (min-width: 1455px) {
+  .course-img{
+    display: none;
+  }
+  
 }

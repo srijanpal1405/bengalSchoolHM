@@ -724,12 +724,14 @@ body.lb-disable-scrolling {
 .contact-map .map{
  width: 49vw;
  height: 100%;
+ box-shadow: 0 0 10px -3px;
 }
 
 .contact-map iframe{
   /* padding: 4%; */
   width: 49vw;
   height: 100%;
+  
 }
 
 

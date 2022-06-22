@@ -329,6 +329,7 @@ footer .icon a:hover {
 
 
 footer .credits p {
+  padding: 7px;
   margin: 5px 0 5px 0;
   font-family: 'poppins','sans-serif';
   text-align: center;

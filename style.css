@@ -173,7 +173,7 @@ nav {
   height: 5rem;
 
   margin: 2% 0 2% 0;
-  background-image: url("/assets/images/banner2.jpeg");
+  background-image: url("assets/images/banner2.jpeg");
   box-shadow: 5px 15px 20px -17px rgba(0, 0, 0, 0.43);
 
 }
@@ -321,7 +321,7 @@ footer .credits p {
 
 .background::before {
   content: "";
-  background-image: url('/assets/images/3.jpeg');
+  background-image: url('assets/images/3.jpeg');
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -435,7 +435,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(/assets/images/loading.gif) no-repeat
+  background: url(assets/images/loading.gif) no-repeat
 }
 
 .lb-nav {
@@ -467,7 +467,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(/assets/images/prev.png) left 48% no-repeat;
+  background: url(assets/images/prev.png) left 48% no-repeat;
   filter: alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity .6s;
@@ -485,7 +485,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(/assets/images/next.png) right 48% no-repeat;
+  background: url(assets/images/next.png) right 48% no-repeat;
   filter: alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity .6s;
@@ -548,7 +548,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(/assets/images/close.png) top right no-repeat;
+  background: url(assets/images/close.png) top right no-repeat;
   text-align: right;
   outline: 0;
   filter: alpha(Opacity=70);

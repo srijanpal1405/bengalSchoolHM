@@ -250,6 +250,24 @@ nav {
   transform: scale(1.1);
 
 }
+.chat-btn {
+  position: absolute;
+  right: 14px;
+  bottom: 30px;
+  cursor: pointer
+}
+.chat-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: blue;
+  color: #fff;
+  font-size: 22px;
+  border: none
+}
 
 .footerC {
   display: flex;
@@ -295,6 +313,7 @@ footer .icon a:hover {
 footer .credits p {
   margin: 5px 0 5px 0;
   text-align: center;
+  font-family: 'poppins','sans-serif';
 }
 
 .map iframe {
@@ -348,7 +367,7 @@ footer .credits p {
 
 
 .graphics_about img {
-  width: 100vw;
+  width: 98vw;
 }
 
 /* ---------------------------------Gallery----------------------------------------------------- */

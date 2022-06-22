@@ -64,7 +64,7 @@ h6 {
 
 nav {
   top: 0px;
-  z-index: 20;
+  z-index: 8;
 }
 
 .navbar {
@@ -117,7 +117,7 @@ nav {
 }
 
 .carousel-item {
-  /* height: 91vh; */
+  z-index: -1;
   width: 100%;
   position: absolute;
   left: 0;
@@ -126,6 +126,7 @@ nav {
 }
 
 .carousel-item img {
+ 
   width: 100%;
   margin-top: 2rem;
 }
@@ -152,7 +153,6 @@ nav {
 
 .carousel-caption1 p {
   font-size: 25px;
-  /* padding-left: 2%; */
   margin-left: 7rem;
   color: #ffffff;
   text-shadow: 1px 3px 25px #000000cc;
@@ -196,12 +196,9 @@ nav {
 }
 
 .flex {
-  /* padding: 0.2%; */
   height: 25rem;
   width: 41rem;
   background-color: rgba(190, 183, 157, 0.471);
-
-  /* border-radius: 10%; */
   margin: 2rem 0rem 2rem 0rem;
   box-shadow: 0px 2px 19px -5px;
   overflow: hidden;
@@ -218,8 +215,7 @@ nav {
 
 .flex img:hover {
   transform: scale(1.1);
-  /* box-shadow: 0px 2px 23px 0px; */
-
+ 
 }
 
 .flex p {
@@ -232,15 +228,18 @@ nav {
 
 .owl-carousel {
   margin: 2% 0 1% 0;
+  z-index: -1 !important;
 }
 
 .owl-carousel .item {
   margin: 2% 0% 2% 3%;
   overflow: hidden;
+  
  
 }
 
 .owl-carousel .item img {
+  
   object-fit: cover;
   overflow: hidden;
   transition: transform 0.1s ease-in-out;
@@ -249,6 +248,42 @@ nav {
 .owl-carousel .item img:hover {
   transform: scale(1.1);
 
+}
+.floating-chat{
+  
+    cursor: pointer;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+}
+.chat-btn {
+  z-index: 91;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgba(13, 168, 23, 0.897);
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  transition: background-color 0.15s ease-in-out;
+  
+}
+.chat-btn:hover{
+  
+  background-color: rgba(15, 139, 23, 0.874);
 }
 
 .footerC {
@@ -297,6 +332,7 @@ footer .credits p {
   margin: 5px 0 5px 0;
   font-family: 'poppins','sans-serif';
   text-align: center;
+  font-family: 'poppins','sans-serif';
 }
 
 .map iframe {
@@ -315,6 +351,7 @@ footer .credits p {
 
 
 .background {
+  z-index: -3;
   position: relative;
   /* height: 100vh; */
   width: 100%;
@@ -339,6 +376,7 @@ footer .credits p {
 }
 
 .about p {
+  z-index: -1;
   text-align: center;
   padding: 1.5% 1% 1% 1.5%;
   position: relative;
@@ -350,7 +388,7 @@ footer .credits p {
 
 
 .graphics_about img {
-  width: 100vw;
+  width: 98vw;
 }
 
 /* ---------------------------------Gallery----------------------------------------------------- */
@@ -387,7 +425,7 @@ body.lb-disable-scrolling {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 5;
   background-color: #000;
   filter: alpha(Opacity=80);
   opacity: .8;
@@ -396,7 +434,7 @@ body.lb-disable-scrolling {
 
 .lightbox {
   width: 100%;
-  z-index: 10000;
+  z-index: 6;
   font-weight: 400;
   outline: 0
 }
@@ -449,7 +487,7 @@ body.lb-disable-scrolling {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 10
+  z-index: 10;
 }
 
 .lb-container>.nav {
@@ -739,7 +777,7 @@ body.lb-disable-scrolling {
   }
 
   .graphics img {
-    width: 100vw;
+    width: 98vw;
   }
 
   .Stud_achieve .flex {
@@ -869,7 +907,7 @@ body.lb-disable-scrolling {
   }
 
   .graphics img {
-    width: 100vw;
+    width: 98vw;
   }
 
   .SAheading {
@@ -980,7 +1018,7 @@ body.lb-disable-scrolling {
   }
 
   .graphics img {
-    width: 50vw;
+    width: 49vw;
   }
 
   footer .map iframe {

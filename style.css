@@ -235,11 +235,14 @@ nav {
 }
 
 .owl-carousel .item {
-  margin: 1% 2% 1% 1%;
-  /* overflow: hidden; */
+  margin: 2% 0% 2% 3%;
+  overflow: hidden;
+ 
 }
 
 .owl-carousel .item img {
+  object-fit: cover;
+  overflow: hidden;
   transition: transform 0.1s ease-in-out;
 }
 
@@ -290,7 +293,7 @@ footer .icon a:hover {
 }
 
 footer .credits p {
-  margin-bottom: 5px;
+  margin: 5px 0 5px 0;
   text-align: center;
 }
 
@@ -629,11 +632,65 @@ body.lb-disable-scrolling {
   height: 15vw;
 }
 
+.hostel
+{
+  font-size: 20px;
+  font-family: 'Josefin', sans-serif;
+  text-align: center;
+}
 
 
 
+/* -------------------------Student--------------------------- */
+.Stud-Guide p{
+  margin: 1.5%;
+  font-size: 20px;
+  font-family: 'Josefin', sans-serif;
+}
+.Stud-Guide li{
+  margin: 0.5% 0 0 1.5%;
+  font-family: 'Josefin', sans-serif;
+}
 
 
+.ragging p{
+  margin: 1.5%;
+  font-size: 20px;
+  font-family: 'Josefin', sans-serif;
+}
+
+/* ----------------------------Contact us--------------------------------------- */
+.admission-container{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.215);
+  padding: 2%;
+}
+
+
+.admission{
+   
+  width: 45vw;
+ margin: 1% 1% 1% 2%;
+}
+
+.admission h2,p{
+  font-family: 'poppins','sans-serif';
+}
+
+.admission .btn{
+  margin: 2%;
+}
+
+.contact-map .map{
+ width: 49vw;
+ height: 100%;
+}
+
+.contact-map iframe{
+  /* padding: 4%; */
+  width: 49vw;
+  height: 100%;
+}
 
 
 
@@ -705,6 +762,20 @@ body.lb-disable-scrolling {
   footer .map iframe {
     width: 79vw;
   }
+
+.admission-container{
+  flex-wrap: wrap;
+}
+.admission{
+  width: 98vw;
+}
+.contact-map .map{
+  width: 95vw;
+}
+.contact-map iframe{
+  width: 95vw;
+}
+
 }
 
 
@@ -752,6 +823,20 @@ body.lb-disable-scrolling {
   footer .map iframe {
     width: 82vw;
   }
+
+  .admission-container{
+    flex-wrap: wrap;
+  }
+  .admission{
+    width: 98vw;
+  }
+  .contact-map .map{
+    width: 95vw;
+  }
+  .contact-map iframe{
+    width: 95vw;
+  }
+  
 }
 
 /* Smartphones (portrait) ---------- */
@@ -811,6 +896,20 @@ body.lb-disable-scrolling {
   footer .map iframe {
     width: 83vw;
   }
+
+  .admission-container{
+    flex-wrap: wrap;
+  }
+  .admission{
+    width: 98vw;
+  }
+  .contact-map .map{
+    width: 97vw;
+  }
+  .contact-map iframe{
+    width: 97vw;
+  }
+  
 }
 
 /* Tablets, iPads (portrait and landscape) ---------- */
@@ -983,6 +1082,8 @@ body.lb-disable-scrolling {
     height: 19vw;
   }
 }
+
+
 
 @media screen and (min-width: 1800px) {
   .course-img{

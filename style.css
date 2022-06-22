@@ -711,7 +711,7 @@ body.lb-disable-scrolling {
 .admission{
    
   width: 45vw;
- margin: 1% 1% 1% 2%;
+ margin: 5% 1% 1% 2%;
 }
 
 .admission h2,p{
@@ -719,7 +719,7 @@ body.lb-disable-scrolling {
 }
 
 .admission .btn{
-  margin: 2%;
+  margin: 0 1% 1% 0;
 }
 
 .contact-map .map{

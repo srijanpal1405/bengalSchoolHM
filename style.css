@@ -14,13 +14,6 @@ body {
 
 }
 
-/* .heading h1{
-  text-align: center;
-    padding-top: 3%;
-    padding-left: 5%;
-    margin-bottom: 1.25rem;
-    font-family: 'Noto Sans', sans-serif;
-} */
 marquee {
   background-color: rgb(60, 60, 135);
   color: wheat;
@@ -135,18 +128,14 @@ nav {
 
 .carousel-caption1 {
   position: absolute;
-  /* right: 15%; */
   bottom: 4rem;
-  /* left: 15%; */
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  /* text-align: center; */
 }
 
 .carousel-caption1 h5 {
   font-size: 90px;
-  /* padding-left: 2%; */
   margin-left: 5rem;
   color: #ffffff;
   text-shadow: 1px 3px 25px #000000cc;
@@ -254,9 +243,8 @@ nav {
 
 }
 .floating-chat{
-  
+  z-index: 9999;
     cursor: pointer;
-    /* display: flex; */
     align-items: center;
     justify-content: center;
     color: white;
@@ -267,7 +255,7 @@ nav {
     height: 40px;
 }
 .chat-btn {
-  z-index: 91;
+  z-index: 9999;
   position:absolute;
   right: 0;
   bottom: 0;
@@ -358,9 +346,7 @@ footer .credits p {
 .background {
   z-index: -3;
   position: relative;
-  /* height: 100vh; */
   width: 100%;
-  /* display: flex; */
   align-items: center;
   justify-content: center;
 
@@ -382,7 +368,7 @@ footer .credits p {
 
 .about p {
   z-index: -1;
-  text-align: center;
+  text-align: justify;
   padding: 1.5% 1% 1% 1.5%;
   position: relative;
   color: #000000;
@@ -733,7 +719,6 @@ body.lb-disable-scrolling {
 }
 
 .contact-map iframe{
-  /* padding: 4%; */
   width: 49vw;
   height: 100%;
   
@@ -763,7 +748,7 @@ body.lb-disable-scrolling {
 
   .address h5,
   .address h6 {
-    font-size: 12px;
+    display: none;
   }
 
   .carousel-caption1 {
@@ -855,7 +840,10 @@ body.lb-disable-scrolling {
   .address h1 {
     margin-top: 2vw;
   }
-
+  .address h5,
+  .address h6 {
+    display: none;
+  }
   .carousel-caption1 {
     display: none;
   }
@@ -979,7 +967,6 @@ body.lb-disable-scrolling {
   }
 
   .footerC {
-    /* width: 100%; */
     flex-wrap: wrap;
   }
   footer .map iframe {
@@ -1097,7 +1084,6 @@ body.lb-disable-scrolling {
 
   .graphics {
     flex-wrap: nowrap;
-    /* width: 50vw; */
   }
 
   .graphics img {
@@ -1154,7 +1140,6 @@ body.lb-disable-scrolling {
 
   .graphics {
     flex-wrap: nowrap;
-    /* width: 50vw; */
   }
 
   .graphics img {

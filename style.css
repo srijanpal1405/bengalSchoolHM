@@ -791,6 +791,10 @@ body.lb-disable-scrolling {
     font-size: 15px;
   }
 
+  .about p{
+    font-size: 15px;
+  }
+
   .course-img{
     display: none;
   }
@@ -851,6 +855,9 @@ body.lb-disable-scrolling {
   }
 
 
+  .about p{
+    font-size: 18px;
+  }
   .course-img{
     display: none;
   }
@@ -927,6 +934,10 @@ body.lb-disable-scrolling {
 
   .Stud_achieve .flex p {
     font-size: 15px;
+  }
+  
+  .about p{
+    font-size: 20px;
   }
   .course-img{
     display: none;

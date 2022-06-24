@@ -221,7 +221,6 @@ nav {
 
 .owl-carousel {
   margin: 2% 0 1% 0;
-  z-index: -1 !important;
 }
 
 .owl-carousel .item {
@@ -673,6 +672,9 @@ body.lb-disable-scrolling {
 
 
 /* -------------------------Student--------------------------- */
+.Stud-Guide{
+  background-color: rgba(0, 0, 0, 0.215);
+}
 .Stud-Guide p{
   margin: 1.5%;
   font-size: 20px;
@@ -682,7 +684,9 @@ body.lb-disable-scrolling {
   margin: 0.5% 0 0 1.5%;
   font-family: 'Josefin', sans-serif;
 }
-
+.ragging{
+  background-color: rgba(0, 0, 0, 0.215);
+}
 
 .ragging p{
   margin: 1.5%;

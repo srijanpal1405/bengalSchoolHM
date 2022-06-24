@@ -127,10 +127,10 @@ nav {
 }
 
 .carousel-caption1 {
+  background-color: rgba(0, 0, 0, 0.548);
   position: absolute;
   bottom: 4rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding: 1.25rem 1.25rem 1.25rem 0;
   color: #fff;
 }
 
